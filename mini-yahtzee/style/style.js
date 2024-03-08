@@ -8,12 +8,13 @@ export default StyleSheet.create({
   header: {
     marginTop: 30,
     marginBottom: 15,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#f9c469',
     flexDirection: 'row',
+    alignItems: 'center'
   },
   footer: {
     marginTop: 20,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#f9c469',
     flexDirection: 'row'
   },
   title: {
@@ -53,16 +54,22 @@ export default StyleSheet.create({
   },
   button: {
     margin: 30,
+    marginHorizontal: 125, 
     flexDirection: "row",
     padding: 10,
-    backgroundColor: "#73CED6",
+    backgroundColor: "#ff6f00",
     width: 150,
-    borderRadius: 15,
+    borderRadius: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    textAlign: 'center'
   },
   buttonText: {
-    color:"#2B2B52",
-    fontSize: 20
+    borderWidth: 1,
+    textAlign: 'center'
+  },
+  text: {
+    textAlign: 'center',
+    fontStyle: 'italic'
   }
 }); 
